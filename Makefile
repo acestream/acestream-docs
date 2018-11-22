@@ -15,8 +15,10 @@ help:
 copy:
 	mkdir -p ./changelog/ace-script/
 	mkdir -p ./changelog/userscript-p2p-search/
+	mkdir -p ./changelog/userscript-magicplayer/
 	cp /home/anton/src/ace-script/CHANGELOG.rst ./changelog/ace-script/
 	cp /home/anton/src/userscript-p2p-search/CHANGELOG.rst ./changelog/userscript-p2p-search/
+	cp /home/anton/src/userscript-magicplayer/CHANGELOG.rst ./changelog/userscript-magicplayer/
 
 .PHONY: help Makefile
 

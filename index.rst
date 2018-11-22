@@ -11,6 +11,7 @@ Welcome to Ace Stream's documentation!
 
    changelog/android-acestream-core/CHANGELOG
    changelog/ace-script/CHANGELOG
+   changelog/userscript-magicplayer/CHANGELOG
    changelog/userscript-p2p-search/CHANGELOG
 
 .. Indices and tables
