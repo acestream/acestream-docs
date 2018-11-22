@@ -9,7 +9,8 @@ Welcome to Ace Stream's documentation!
 .. toctree::
    :maxdepth: 2
 
-   CHANGELOG
+   changelog/android-acestream-core/CHANGELOG
+   changelog/ace-script/CHANGELOG
 
 .. Indices and tables
 .. ==================
@@ -17,4 +18,3 @@ Welcome to Ace Stream's documentation!
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-.. * :doc:`CHANGELOG`
