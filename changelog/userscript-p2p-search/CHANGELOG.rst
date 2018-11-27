@@ -2,6 +2,10 @@
 P2P Search userscript changelog
 ===============================
 
+0.23
+----
+* Support Google search on mobile devices. Tested in Firefox for Android.
+
 0.22
 ----
 * Fix Enter keypress behaviour on google
