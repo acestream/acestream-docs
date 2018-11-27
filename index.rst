@@ -10,6 +10,7 @@ Welcome to Ace Stream's documentation!
    :maxdepth: 2
 
    changelog/android-acestream-core/CHANGELOG
+   changelog/jsapi/CHANGELOG
    changelog/ace-script/CHANGELOG
    changelog/userscript-magicplayer/CHANGELOG
    changelog/userscript-p2p-search/CHANGELOG
