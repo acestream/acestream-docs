@@ -2,6 +2,10 @@
 P2P Search userscript changelog
 ===============================
 
+0.24
+----
+* Fix search on Google (markup was changed)
+
 0.23
 ----
 * Support Google search on mobile devices. Tested in Firefox for Android.
