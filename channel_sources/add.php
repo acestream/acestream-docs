@@ -116,7 +116,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 function add_source($name, $url) {
     validate_source($name, $url);
-    pull();
+    git_pull();
     $sources = load_sources();
     if(array_key_exists($url, $sources)) {
         throw new Exception('Source already exists');
@@ -126,11 +126,12 @@ function add_source($name, $url) {
         'name' => $name,
         );
     save_sources($sources);
-    push();
+    git_commit(get_sources_files_path(), 'New source added');
+    git_push();
 }
 
 function get_sources_files_path() {
-    return REPO_PATH . '/known_channel_sources.rst';
+    return REPO_PATH . '/acestream_livetv_android/known_channel_sources.rst';
 }
 
 function load_sources() {
@@ -180,15 +181,14 @@ function save_sources($sources) {
     else {
         $got_marker = false;
         foreach($lines as $line) {
-            $line = trim($line);
             if($got_marker) {
                 break;
             }
             else {
-                if($line == SOURCE_LIST_MARKER) {
+                if(trim($line) == SOURCE_LIST_MARKER) {
                     $got_marker = true;
                 }
-                $new_lines[] = $line;
+                $new_lines[] = rtrim($line);
             }
         }
 
@@ -197,7 +197,6 @@ function save_sources($sources) {
         }
     }
 
-    $new_lines[] = '';
     $new_lines[] = '';
     foreach($sources as $source_url => $source) {
         // escape with backquotes
@@ -251,11 +250,15 @@ function validate_source($name, $url) {
     }
 }
 
-function push() {
+function git_commit($path, $message) {
+    run_command('git commit -m "' . $message . '" ' . $path);
+}
+
+function git_push() {
     run_command('git push');
 }
 
-function pull() {
+function git_pull() {
     run_command('git pull');
 }
 
