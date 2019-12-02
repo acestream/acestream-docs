@@ -9,15 +9,5 @@ Welcome to Ace Stream's documentation!
 .. toctree::
    :maxdepth: 2
 
-   changelog/android-acestream-core/CHANGELOG
-   changelog/jsapi/CHANGELOG
-   changelog/ace-script/CHANGELOG
-   changelog/userscript-magicplayer/CHANGELOG
-   changelog/userscript-p2p-search/CHANGELOG
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+   acestream_livetv_android
+   changelogs
