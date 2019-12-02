@@ -16,3 +16,6 @@ Known channel sources
 
 * | Name: `P2P Search`
   | Source URL: http://127.0.0.1:6878/search
+
+* | Name: `test`
+  | Source URL: http://acestream.org/demo/channel_source/search
