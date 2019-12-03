@@ -23,3 +23,4 @@ Available on Google Play: https://play.google.com/store/apps/details?id=org.aces
    search_settings.rst
    search_api.rst
    known_channel_sources.rst
+   CHANGELOG
