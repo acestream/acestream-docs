@@ -1,6 +1,40 @@
-=======================================
-Ace Stream Engine for Android changelog
-=======================================
+===========================
+Ace Stream Engine changelog
+===========================
+
+3.1.55.4 (2019-12-10)
+---------------------
+
+* Fixed engine starting on ARMv8-64 devices
+* Battery optimization: discover devices only on user's request (don't do it in background)
+* Fixed AceCast device discovery issue (device was not visible for several minutes after it restarted on another port)
+
+
+3.1.55.1 (2019-12-03)
+---------------------
+
+Fix LibVLC options:
+
+* change "enable_time_stretching_audio" default value to "true"
+* set default values for "deblocking" and "resampler" in runtime based on machine specs
+
+
+3.1.55.0
+--------
+* Allow adding custom channel sources
+
+3.1.54.0
+--------
+* Fixed several bugs
+
+3.1.53.0
+--------
+* Initial release of app with TV UI
+
+3.1.52.0
+--------
+* Use FFMPEG for HLS processing by default (can be disabled in preferences)
+* Fix compatibility issues for old devices with 64-bit architecture
 
 3.1.51.5
 --------
