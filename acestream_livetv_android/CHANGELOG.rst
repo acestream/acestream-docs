@@ -2,6 +2,16 @@
 Changelog
 =========
 
+3.1.55.4 (2019-12-10)
+---------------------
+
+* Fixed engine starting on ARMv8-64 devices
+* Battery optimization: discover devices only on user's request (don't do it in background)
+* Fixed crashes caused by using WebView in multiple processes on Android 9+
+* Fixed AceCast device discovery issue (device was not visible for several minutes after it restarted on another port)
+* Don't stop playback on AceCast device when it's disconnected by user
+
+
 3.1.55.1 (2019-12-03)
 ---------------------
 

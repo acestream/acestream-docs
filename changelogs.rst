@@ -6,6 +6,7 @@ Changelogs
    :maxdepth: 1
 
    changelog/acestream-engine-android/CHANGELOG
+   changelog/acestream-engine-android-tv/CHANGELOG
    changelog/acestream-media-android/CHANGELOG
    changelog/jsapi/CHANGELOG
    changelog/ace-script/CHANGELOG
