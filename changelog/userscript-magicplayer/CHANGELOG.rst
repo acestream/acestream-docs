@@ -2,12 +2,21 @@
 Magic Player userscript changelog
 =================================
 
+1.1.4 (2019-12-19)
+------------------
+
+* Fixed button on "fast-torrent"
+
+
 1.1.2 (2018-11-27)
 ------------------
+
 * Fix typo in code (semicolon) which caused an error when userscript was loaded on docs.google.com
+
 
 1.1.1 (2018-11-22)
 ------------------
+
 * Add support for magnet links
 
   Magnet links can be opended in player from context menu "Watch online"
