@@ -2,6 +2,24 @@
 Changelog
 =========
 
+3.1.56.1 (2019-12-19)
+---------------------
+
+* Close app when "Cancel" is pressed in a notification about required remote control
+* Minor bugfixes
+
+
+3.1.56.0 (2019-12-18)
+---------------------
+
+* Added custom EPG sources
+* Added translations
+* Fixed app crash when changing language
+* Notify user that remote control is required for this app
+* Fixed bug: on some devices main menu was not shown after pressing "OK"
+* Fixed bug: sign in with Ace Stream account didn't work sometimes
+
+
 3.1.55.4 (2019-12-10)
 ---------------------
 
