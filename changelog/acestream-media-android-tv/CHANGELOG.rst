@@ -1,6 +1,6 @@
-===========================
-Ace Stream Engine changelog
-===========================
+=========================================
+Ace Stream Media for Android TV changelog
+=========================================
 
 3.1.56.1 (2019-12-19)
 ---------------------
@@ -19,30 +19,17 @@ Ace Stream Engine changelog
 ---------------------
 
 * Fixed engine starting on ARMv8-64 devices
-* Battery optimization: discover devices only on user's request (don't do it in background)
-* Fixed AceCast device discovery issue (device was not visible for several minutes after it restarted on another port)
+* Fixed crashes caused by using WebView in multiple processes on Android 9+
 
 
 3.1.55.1 (2019-12-03)
 ---------------------
 
-Fix LibVLC options:
+Changes in TV UI:
 
-* change "enable_time_stretching_audio" default value to "true"
-* set default values for "deblocking" and "resampler" in runtime based on machine specs
+* fix translations on main screen
+* add button to launch or install "Ace Stream LiveTV" app
 
-
-3.1.55.0
---------
-* Allow adding custom channel sources
-
-3.1.54.0
---------
-* Fixed several bugs
-
-3.1.53.0
---------
-* Initial release of app with TV UI
 
 3.1.52.0
 --------
@@ -114,6 +101,7 @@ Fix LibVLC options:
 --------
 * Fixed crashes of rewarded ads
 * Fixed integration bugs
+* Reduced background memory usage
 
 3.1.44.1
 --------
@@ -133,6 +121,7 @@ Fix LibVLC options:
 
 3.1.42.7
 --------
+* Fixed crash after clicking "Load last playlist"
 * Fixed crash after selecting player from the list
 
 3.1.42.6
@@ -141,15 +130,43 @@ Fix LibVLC options:
 
 3.1.42.4
 --------
-* Optimizations in engine
 * Added PollFish OfferWall mode
 * Fix to prevent "Context.startForegroundService() did not then call Service.startForeground()" on some devices
 * Some other top crashes are fixed
 
+3.1.42.2
+--------
+* Optimizations in engine
+* Bug fixes
+
 3.1.41.1
 --------
 * Fix some issues with authorization
+* Fixed bug: engine session was not stopped after clicking "stop" button when casting to Chromecast
+* Fixed crashes on some Samsung devices
 * Optimizations in broadcast stability
+
+3.1.40.0
+--------
+* Fixed one more bug in Engine API (stream was locked after STOP)
+
+3.1.39.0
+--------
+* Fixed bug in Engine API
+
+3.1.38.0
+--------
+* Added "Quit" button to notification (stops app)
+* Fixed one more issue with unexpected app start on some devices
+* Use latest jmDNS library (3.5.5)
+* Added ability to select file from multi-file torrent when starting in Ace Player
+* Fixed some bugs
+
+3.1.37.10
+---------
+* Fixed issue with unexpected app start on some devices
+* Fixed resolver (all installed players should be available now)
+* Fixed some bugs
 
 3.1.37.9
 --------
@@ -165,6 +182,9 @@ Fix LibVLC options:
 --------
 * Fixed crash caused by seekbar inflate error (on old Android devices)
 * Fixed crash when starting P2P content in external player (on some devices)
+* Fixed crash when closing "Open link" dialog
+* Added ability to share content with Ace Stream ("Open in Ace Stream" menu item when sharing)
+* Fixed OutOfMemoryError when opening some big files
 
 3.1.37.6
 --------
@@ -177,6 +197,8 @@ Fix LibVLC options:
 --------
 * Fixed some crashes
 * App now doesn't start after reboot by default
+* Fixed some issues with stopping engine
+* Fixed "Open link" dialog on Android TV versions
 
 3.1.37.4
 --------
@@ -191,7 +213,7 @@ Fix LibVLC options:
 3.1.37.2
 --------
 
+* Fix LUA scripts (allow watching YouTube etc from "Open link" menu)
 * Add bonuses for rewarded video in player
 * Fixed some crashes
 * Minor bug fixes
-

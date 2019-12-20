@@ -1,6 +1,43 @@
-=======================================
-Ace Stream Media for Android changelog
-=======================================
+==========================
+Ace Stream Media changelog
+==========================
+
+3.1.56.1 (2019-12-19)
+---------------------
+
+* Minor bugfixes
+
+
+3.1.56.0 (2019-12-18)
+---------------------
+
+* Fixed bug: sign in with Ace Stream account didn't work sometimes
+* Added translations
+
+
+3.1.55.4 (2019-12-10)
+---------------------
+
+* Fixed engine starting on ARMv8-64 devices
+* Battery optimization: discover devices only on user's request (don't do it in background)
+* Fixed crashes caused by using WebView in multiple processes on Android 9+
+* Fixed AceCast device discovery issue (device was not visible for several minutes after it restarted on another port)
+* Don't stop playback on AceCast device when it's disconnected by user
+
+
+3.1.55.1 (2019-12-03)
+---------------------
+
+Changes in TV UI:
+
+* fix translations on main screen
+* add button to launch or install "Ace Stream LiveTV" app
+
+
+3.1.52.0
+--------
+* Use FFMPEG for HLS processing by default (can be disabled in preferences)
+* Fix compatibility issues for old devices with 64-bit architecture
 
 3.1.51.5
 --------

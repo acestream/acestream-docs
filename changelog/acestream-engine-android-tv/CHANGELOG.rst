@@ -2,6 +2,19 @@
 Ace Stream Engine for Android TV changelog
 ==========================================
 
+3.1.56.1 (2019-12-19)
+---------------------
+
+* Minor bugfixes
+
+
+3.1.56.0 (2019-12-18)
+---------------------
+
+* Fixed bug: sign in with Ace Stream account didn't work sometimes
+* Added translations
+
+
 3.1.55.4 (2019-12-10)
 ---------------------
 

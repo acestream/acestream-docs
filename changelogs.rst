@@ -8,6 +8,7 @@ Changelogs
    changelog/acestream-engine-android/CHANGELOG
    changelog/acestream-engine-android-tv/CHANGELOG
    changelog/acestream-media-android/CHANGELOG
+   changelog/acestream-media-android-tv/CHANGELOG
    changelog/jsapi/CHANGELOG
    changelog/ace-script/CHANGELOG
    changelog/userscript-magicplayer/CHANGELOG
