@@ -2,6 +2,16 @@
 Changelog
 =========
 
+3.1.58.0 (2020-03-02)
+---------------------
+
+* Decrease playback start time for HLS broadcasts
+* Improve peer discovery for HLS broadcasts
+* Fix crashes on Android 4
+* Add EPG source from "url-tvg" tag when importing playlist from uploaded file
+* Fix processing large gzipped XMLTV files
+
+
 3.1.57.1 (2020-02-19)
 ---------------------
 

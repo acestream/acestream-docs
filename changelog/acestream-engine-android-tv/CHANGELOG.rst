@@ -2,6 +2,37 @@
 Ace Stream Engine for Android TV changelog
 ==========================================
 
+3.1.58.0 (2020-03-04)
+---------------------
+
+* Decrease playback start time for HLS broadcasts
+* Improve peer discovery for HLS broadcasts
+
+
+3.1.57.0 (2020-02-17)
+---------------------
+
+* Fix bug: it was impossible to change selected player from settings
+* Don't show error screen when GDPR notification failed to load
+* Add link to GDP consent in "About" screen
+
+
+3.1.56.3 (2019-12-30)
+---------------------
+
+* Use system notifications for urgent alerts on Android 10
+
+
+3.1.56.2 (2019-12-24)
+---------------------
+
+* Fixed bug: sometimes main content sound was heard during ads playback
+* Fixed crash when media button was used on some devices
+* Fixed crash after device reboot
+* Fixed crash when engine was accessed without storage permission
+* Fixed several bugs causing crashes on app startup or when app is in background
+
+
 3.1.56.1 (2019-12-19)
 ---------------------
 
