@@ -2,6 +2,15 @@
 Ace Stream Media changelog
 ==========================
 
+3.1.59.2 (2020-04-25)
+---------------------
+
+* Fix bug which could cause HLS brodcast freeze
+* Speed up engine start
+* Speed up playback start
+* Speed up XMLTV processing
+
+
 3.1.58.0 (2020-03-04)
 ---------------------
 
