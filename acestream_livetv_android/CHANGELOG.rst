@@ -2,6 +2,19 @@
 Changelog
 =========
 
+3.1.59.2 (2020-04-25)
+---------------------
+
+* New feature: group channels by name
+* New feature: automatically search for working sources
+* Fix bug which could cause HLS brodcast freeze
+* Speed up engine start
+* Speed up playback start
+* Speed up XMLTV processing
+* Detect and notify missing network connection
+* Sync changes from channel editor
+
+
 3.1.58.0 (2020-03-02)
 ---------------------
 
