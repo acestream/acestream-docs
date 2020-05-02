@@ -2,6 +2,24 @@
 Ace Stream Media changelog
 ==========================
 
+3.1.59.5 (2020-05-01)
+---------------------
+
+* Fix crash in "Browsing" section
+
+
+3.1.59.4 (2020-04-30)
+---------------------
+
+* Fix running on old android versions
+
+
+3.1.59.3 (2020-04-30)
+---------------------
+
+* Fix crash after opening settings
+
+
 3.1.59.2 (2020-04-25)
 ---------------------
 

@@ -2,6 +2,18 @@
 Ace Stream Media for Android TV changelog
 =========================================
 
+3.1.59.5 (2020-05-01)
+---------------------
+
+* Fix crash in "Browsing" section
+
+
+3.1.59.3 (2020-04-30)
+---------------------
+
+* Fix crash after opening settings
+
+
 3.1.59.2 (2020-04-25)
 ---------------------
 
