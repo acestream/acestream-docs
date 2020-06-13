@@ -10,4 +10,4 @@ In this section you can:
 
 .. note:: To search network you need to add at least one channel source (see :doc:`search_settings`)
 
-.. image:: /acestream_livetv_android/_static/add_content_1.png
+.. image:: /applications/android/acestream_livetv/_static/add_content_1.png

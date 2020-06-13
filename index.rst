@@ -9,5 +9,6 @@ Welcome to Ace Stream's documentation!
 .. toctree::
    :maxdepth: 2
 
-   acestream_livetv_android/index
+   applications/android/index
+   .. guides/index
    changelogs

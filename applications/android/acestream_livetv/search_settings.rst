@@ -19,15 +19,15 @@ Add source
 
 1. Enter the source URL:
 
-.. image:: /acestream_livetv_android/_static/add_channel_source_1.png
+.. image:: /applications/android/acestream_livetv/_static/add_channel_source_1.png
 
 2. Press "Continue":
 
-.. image:: /acestream_livetv_android/_static/add_channel_source_2.png
+.. image:: /applications/android/acestream_livetv/_static/add_channel_source_2.png
 
 3. When the source is successfully added you should see this:
 
-.. image:: /acestream_livetv_android/_static/add_channel_source_3.png
+.. image:: /applications/android/acestream_livetv/_static/add_channel_source_3.png
 
 
 ------------
@@ -36,5 +36,5 @@ Edit sources
 
 Here you can enable, disable, rename or delete sources:
 
-.. image:: /acestream_livetv_android/_static/edit_channel_sources_1.png
-.. image:: /acestream_livetv_android/_static/edit_channel_sources_2.png
+.. image:: /applications/android/acestream_livetv/_static/edit_channel_sources_1.png
+.. image:: /applications/android/acestream_livetv/_static/edit_channel_sources_2.png
