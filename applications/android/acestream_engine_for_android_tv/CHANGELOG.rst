@@ -2,6 +2,12 @@
 Ace Stream Engine for Android TV changelog
 ==========================================
 
+3.1.61.0 (2020-06-17)
+---------------------
+
+* Fix bug with playback in external players
+
+
 3.1.59.2 (2020-04-25)
 ---------------------
 

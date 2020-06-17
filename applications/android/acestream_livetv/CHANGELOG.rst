@@ -2,6 +2,34 @@
 Changelog
 =========
 
+3.1.61.0 (2020-06-17)
+---------------------
+
+* Fix bug with playback in external players
+* Don't reset selected category in EPG after starting channel
+* Fix bug with "frozen" timeline in EPG
+* Preserve current position when EPG is updated while the user is browsing it
+* Add preferred languages and countries to settings
+* Add ability to find additional channel sources
+* Show categories from playlist in EPG left menu
+* Allow grouping by countries/languages in channel editor
+
+
+3.1.60.0 (2020-05-20)
+---------------------
+
+* Fix the order of last watched channels on the main Android TV screen
+* Add support for "x-tvg-url" tag (link to the EPG source in the playlist)
+* Fix the issue with possible disappearing of playlist after engine stopping
+* Fix bug with endless "Initialization..." message
+* Disable autoplay in channel editors (can be enabled in settings)
+* Speed up EPG sources processing
+* Changes in parental controls:
+  * fix bug: blocked channel was visible for a few seconds while tuning
+  * don't show blocked channels on the main Android TV screen
+  * entered PIN is remembered for one minute
+
+
 3.1.59.4 (2020-04-30)
 ---------------------
 

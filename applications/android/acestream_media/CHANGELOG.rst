@@ -2,6 +2,12 @@
 Ace Stream Media changelog
 ==========================
 
+3.1.61.0 (2020-06-17)
+---------------------
+
+* Fix bug with playback in external players
+
+
 3.1.59.5 (2020-05-01)
 ---------------------
 
