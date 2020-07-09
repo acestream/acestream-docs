@@ -2,6 +2,12 @@
 Changelog
 =========
 
+3.1.61.1 (2020-07-08)
+---------------------
+
+* Fix crash when entering "Language/Country" settings
+
+
 3.1.61.0 (2020-06-17)
 ---------------------
 
